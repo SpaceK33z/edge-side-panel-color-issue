@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Tango Side Panel Color Test",
+    "short_name": "Tango Side Panel",
+    "description": "Just a test.",
+    "version": "1.0.0",
+    "side_panel": {
+      "default_path": "sidepanel.html"
+    },
+    "minimum_chrome_version": "118",
+    "permissions": ["sidePanel"],
+    "content_security_policy": { "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self'" }
+  }
+  
